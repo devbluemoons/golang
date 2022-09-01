@@ -24,3 +24,16 @@ which go
 export GOPATH=$HOME
 export PATH=$PATH:$GOPATH/bin
 ```
+
+## basic structure
+```go
+package main
+
+import (
+  "fmt"
+)
+
+func main() {
+  fmt.Plintln("Hello World~")
+}
+```
